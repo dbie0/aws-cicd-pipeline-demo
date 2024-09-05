@@ -1,2 +1,4 @@
 #!/bin/bash
-systemctl stop flaskapp.service || true
+systemctl stop flaskapp.service
+echo 'systemctl stop finished'
+exit 0
