@@ -1,0 +1,16 @@
+[Unit]
+Description=Flask Application Service
+After=network.target
+
+[Service]
+User=ec2-user
+Group=ec2-user
+WorkingDirectory=/home/ec2-user/flask-cicd-demo
+Environment="PATH=/usr/local/bin:/usr/bin"
+ExecStart=/usr/bin/python3 /home/ec2-user/flask-cicd-demo/app.py
+
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
