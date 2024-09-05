@@ -1,0 +1,1 @@
+Purpose of this repository is to test CI/CD pipeline built using AWS CodePipeline, CodeBuild, and CodeDeploy to automatically deploy a Flask application from the repository to an EC2 instance.
