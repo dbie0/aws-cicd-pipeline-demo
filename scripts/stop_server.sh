@@ -1,4 +1,3 @@
 #!/bin/bash
-
-echo "Sanity check"
+systemctl stop flaskapp.service || true
 exit 0
