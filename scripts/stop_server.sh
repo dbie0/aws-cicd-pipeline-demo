@@ -1,3 +1,4 @@
 #!/bin/bash
 systemctl stop flaskapp.service
-exit 1
+echo "Exit code 0"
+exit 0
