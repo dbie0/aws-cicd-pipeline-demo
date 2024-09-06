@@ -1,3 +1,3 @@
 #!/bin/bash
 systemctl stop flaskapp.service
-exit 0
+exit 1
