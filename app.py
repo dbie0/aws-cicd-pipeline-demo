@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World! This is a CI/CD pipeline demo with AWS CodePipeline. Version 3'
+    return 'Hello, World! This is a CI/CD pipeline demo with AWS CodePipeline. Version 4'
 
 
 if __name__ == '__main__':
