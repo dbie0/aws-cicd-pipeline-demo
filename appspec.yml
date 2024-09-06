@@ -4,7 +4,7 @@ files:
   - source: /
     destination: /home/ec2-user/flask-cicd-demo
   - source: /scripts/flaskapp.service
-    destination: /etc/systemd/system/flaskapp.service
+    destination: /etc/systemd/system/
 permissions:
   - object: /home/ec2-user/flask-cicd-demo
     owner: ec2-user
